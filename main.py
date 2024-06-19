@@ -44,7 +44,7 @@ def play():
         print("\nYou won the game round")
     elif (wins == 0) and (losses == 0) and (ties == 0):
         print("\nYou've not played")
-    elif wins == losses:
+    elif wins == losses :
         print("\nThe game is a tie")
     else:
         print("You lost the game round")   
